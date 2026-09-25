@@ -1,0 +1,15 @@
+{
+  "name": "worm-c2",
+  "version": "1.0.0",
+  "description": "WORM HCX 2026 - All-in-one L7 C2",
+  "main": "worm.js",
+  "scripts": {
+    "start": "node worm.js",
+    "agent": "node worm.js --agent"
+  },
+  "dependencies": {
+    "ws": "^8.17.0",
+    "undici": "^6.19.2"
+  },
+  "license": "MIT"
+}
